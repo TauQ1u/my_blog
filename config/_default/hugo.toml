@@ -11,6 +11,8 @@ defaultContentLanguageInSubdir = true
 
 theme = "hugo-theme-stack"
 
+enableGitInfo = true
+
 [pagination]
     pagerSize = 3
 
@@ -20,3 +22,6 @@ theme = "hugo-theme-stack"
 
 [services.disqus]
     shortname = "hugo-theme-stack"
+
+[frontmatter]
+    lastmod = ["lastmod", ":git", ":fileModTime"]
