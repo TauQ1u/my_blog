@@ -1,0 +1,93 @@
+$cursor-path: "../mouse";
+
+// 默认光标
+html,
+body,
+.article-content {
+    cursor: url("#{$cursor-path}/pointer.cur"),
+    auto;
+}
+
+// 链接、按钮及可点击控件
+a,
+button,
+summary,
+select,
+label[for],
+.copyCodeButton,
+#dark-mode-toggle,
+#toggle-menu,
+.pagination-link,
+[role="button"] {
+    cursor: url("#{$cursor-path}/link.cur"),
+    pointer;
+}
+
+// 文本输入和正文选择
+input,
+textarea,
+[contenteditable="true"],
+.article-content p,
+.article-content li,
+.article-content span,
+.article-content blockquote,
+.article-content code {
+    cursor: url("#{$cursor-path}/text.cur"),
+    text;
+}
+
+// 可以拖动的元素
+[draggable="true"],
+.cursor-move {
+    cursor: url("#{$cursor-path}/move.cur"),
+    move;
+}
+
+// 精确选择，例如画布或图片标注
+canvas,
+.cursor-crosshair {
+    cursor: url("#{$cursor-path}/cross.cur"),
+    crosshair;
+}
+
+// 禁用元素
+button:disabled,
+input:disabled,
+select:disabled,
+textarea:disabled,
+[aria-disabled="true"],
+.disabled {
+    cursor: url("#{$cursor-path}/unavailable.cur"),
+    not-allowed;
+}
+
+// 帮助信息
+abbr[title],
+.help,
+[data-help] {
+    cursor: url("#{$cursor-path}/help.cur"),
+    help;
+}
+
+// 水平尺寸调整
+.resize-horizontal {
+    cursor: url("#{$cursor-path}/horz.cur"),
+    ew-resize;
+}
+
+// 垂直尺寸调整
+.resize-vertical {
+    cursor: url("#{$cursor-path}/vert.cur"),
+    ns-resize;
+}
+
+// 加载中：使用浏览器自带动画，兼容性最好
+.loading,
+[aria-busy="true"] {
+    cursor: progress;
+}
+
+// 阻塞操作：等待完成
+.is-waiting {
+    cursor: wait;
+}
