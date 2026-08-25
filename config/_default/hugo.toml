@@ -1,15 +1,15 @@
 baseURL                = "https://tauq1u.github.io/my_blog/"
-locale                 = "zh"
-title                  = "Hugo Theme Stack"
+locale                 = "zh-CN"
+title                  = "TauQ1u's Blog"
 # Theme i18n support
 # See i18n folder for available languages
 defaultContentLanguage = "zh"
 # Set hasCJKLanguage to true if DefaultContentLanguage is a CJK language
 # This will make .Summary and .WordCount behave correctly
-hasCJKLanguage         = false
+hasCJKLanguage         = true
+defaultContentLanguageInSubdir = true
 
-[[module.imports]]
-    path = "hugo-theme-stack"
+theme = "hugo-theme-stack"
 
 [pagination]
     pagerSize = 3
