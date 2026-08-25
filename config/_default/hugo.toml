@@ -1,9 +1,9 @@
-baseURL                = "https://demo.stack.cai.im/"
-locale                 = "en-us"
+baseURL                = "https://tauq1u.github.io/my_blog/"
+locale                 = "zh"
 title                  = "Hugo Theme Stack"
 # Theme i18n support
 # See i18n folder for available languages
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 # Set hasCJKLanguage to true if DefaultContentLanguage is a CJK language
 # This will make .Summary and .WordCount behave correctly
 hasCJKLanguage         = false

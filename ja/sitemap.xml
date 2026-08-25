@@ -2,342 +2,287 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://demo.stack.cai.im/ja/</loc>
+    <loc>https://tauq1u.github.io/my_blog/ja/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/"
+                hreflang="en"
+                href="https://tauq1u.github.io/my_blog/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://demo.stack.cai.im/zh/"
+                href="https://tauq1u.github.io/my_blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://demo.stack.cai.im/ja/"
+                href="https://tauq1u.github.io/my_blog/ja/"
                 />
   </url><url>
-    <loc>https://demo.stack.cai.im/ja/categories/</loc>
+    <loc>https://tauq1u.github.io/my_blog/ja/categories/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/categories/"
+                hreflang="en"
+                href="https://tauq1u.github.io/my_blog/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://demo.stack.cai.im/zh/categories/"
+                href="https://tauq1u.github.io/my_blog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/categories/"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://demo.stack.cai.im/ja/categories/"
+                href="https://tauq1u.github.io/my_blog/ja/categories/"
                 />
   </url><url>
-    <loc>https://demo.stack.cai.im/ja/tags/gallery/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/tags/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://demo.stack.cai.im/zh/tags/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/tags/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://demo.stack.cai.im/ja/tags/gallery/"
-                />
-  </url><url>
-    <loc>https://demo.stack.cai.im/ja/page/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://demo.stack.cai.im/zh/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://demo.stack.cai.im/ja/page/"
-                />
-  </url><url>
-    <loc>https://demo.stack.cai.im/ja/tags/photoswipe/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/tags/photoswipe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://demo.stack.cai.im/zh/tags/photoswipe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/tags/photoswipe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://demo.stack.cai.im/ja/tags/photoswipe/"
-                />
-  </url><url>
-    <loc>https://demo.stack.cai.im/ja/post/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://demo.stack.cai.im/zh/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://demo.stack.cai.im/ja/post/"
-                />
-  </url><url>
-    <loc>https://demo.stack.cai.im/ja/tags/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://demo.stack.cai.im/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://demo.stack.cai.im/ja/tags/"
-                />
-  </url><url>
-    <loc>https://demo.stack.cai.im/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://demo.stack.cai.im/zh/%E5%85%B3%E4%BA%8E/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/%E9%97%9C%E6%96%BC/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://demo.stack.cai.im/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
-                />
-  </url><url>
-    <loc>https://demo.stack.cai.im/ja/p/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/p/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://demo.stack.cai.im/zh/p/%E7%9F%AD%E4%BB%A3%E7%A0%81/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/p/%E7%9F%AD%E4%BB%A3%E7%A2%BC/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://demo.stack.cai.im/ja/p/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89/"
-                />
-  </url><url>
-    <loc>https://demo.stack.cai.im/ja/categories/documentation/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/categories/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://demo.stack.cai.im/zh/categories/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/categories/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://demo.stack.cai.im/ja/categories/documentation/"
-                />
-  </url><url>
-    <loc>https://demo.stack.cai.im/ja/tags/%E9%9A%90%E7%A7%81/</loc>
+    <loc>https://tauq1u.github.io/my_blog/ja/tags/gallery/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://demo.stack.cai.im/zh/tags/%E9%9A%90%E7%A7%81/"
+                href="https://tauq1u.github.io/my_blog/tags/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/tags/%E9%9A%90%E7%A7%81/"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://demo.stack.cai.im/ja/tags/%E9%9A%90%E7%A7%81/"
+                href="https://tauq1u.github.io/my_blog/ja/tags/gallery/"
                 />
   </url><url>
-    <loc>https://demo.stack.cai.im/ja/p/image-gallery/</loc>
+    <loc>https://tauq1u.github.io/my_blog/ja/page/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/p/image-gallery/"
+                hreflang="zh"
+                href="https://tauq1u.github.io/my_blog/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/page/"
+                />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/tags/photoswipe/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tauq1u.github.io/my_blog/tags/photoswipe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/photoswipe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/tags/photoswipe/"
+                />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/post/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tauq1u.github.io/my_blog/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/post/"
+                />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/tags/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tauq1u.github.io/my_blog/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://demo.stack.cai.im/zh/p/image-gallery/"
+                href="https://tauq1u.github.io/my_blog/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/p/image-gallery/"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://demo.stack.cai.im/ja/p/image-gallery/"
+                href="https://tauq1u.github.io/my_blog/ja/tags/"
                 />
   </url><url>
-    <loc>https://demo.stack.cai.im/ja/archives/</loc>
+    <loc>https://tauq1u.github.io/my_blog/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tauq1u.github.io/my_blog/%E5%85%B3%E4%BA%8E/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/%E9%97%9C%E6%96%BC/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+                />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/p/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tauq1u.github.io/my_blog/p/%E7%9F%AD%E4%BB%A3%E7%A0%81/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/p/%E7%9F%AD%E4%BB%A3%E7%A2%BC/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/p/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89/"
+                />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/categories/documentation/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tauq1u.github.io/my_blog/categories/documentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/categories/documentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/categories/documentation/"
+                />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/tags/%E9%9A%90%E7%A7%81/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tauq1u.github.io/my_blog/tags/%E9%9A%90%E7%A7%81/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/%E9%9A%90%E7%A7%81/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/tags/%E9%9A%90%E7%A7%81/"
+                />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/p/image-gallery/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tauq1u.github.io/my_blog/p/image-gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/p/image-gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/p/image-gallery/"
+                />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh"
-                href="https://demo.stack.cai.im/zh/archives/"
+                href="https://tauq1u.github.io/my_blog/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/archives/"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://demo.stack.cai.im/ja/archives/"
+                href="https://tauq1u.github.io/my_blog/ja/archives/"
                 />
   </url><url>
-    <loc>https://demo.stack.cai.im/ja/%E3%83%AA%E3%83%B3%E3%82%AF/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/links/"
-                />
+    <loc>https://tauq1u.github.io/my_blog/ja/%E3%83%AA%E3%83%B3%E3%82%AF/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://demo.stack.cai.im/zh/%E9%93%BE%E6%8E%A5/"
+                href="https://tauq1u.github.io/my_blog/%E9%93%BE%E6%8E%A5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/%E9%8F%88%E6%8E%A5/"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/%E9%8F%88%E6%8E%A5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://demo.stack.cai.im/ja/%E3%83%AA%E3%83%B3%E3%82%AF/"
+                href="https://tauq1u.github.io/my_blog/ja/%E3%83%AA%E3%83%B3%E3%82%AF/"
                 />
   </url><url>
-    <loc>https://demo.stack.cai.im/ja/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://demo.stack.cai.im/search/"
-                />
+    <loc>https://tauq1u.github.io/my_blog/ja/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://demo.stack.cai.im/zh/search/"
+                href="https://tauq1u.github.io/my_blog/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant-tw"
-                href="https://demo.stack.cai.im/zh-hant-tw/search/"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://demo.stack.cai.im/ja/search/"
+                href="https://tauq1u.github.io/my_blog/ja/search/"
                 />
   </url>
 </urlset>
