@@ -2,7 +2,7 @@
 
 基于 [Hugo](https://gohugo.io/) + [Stack 主题](https://github.com/CaiJimmy/hugo-theme-stack) 的个人博客，推送到本仓库后由 GitHub Actions 自动构建并部署到 GitHub Pages。
 
-在线地址：<https://tauq1u.github.io/my_blog/>
+在线地址：[https://tauq1u.github.io/my_blog/](https://tauq1u.github.io/my_blog/)
 
 ---
 
@@ -32,14 +32,14 @@ blog/
 
 博客有两个板块，文章按板块分目录存放：
 
-| 想写的内容 | 放在哪个目录 |
-|---|---|
-| 科研、课程、论文笔记 | `content/computer/` |
-| 技术栈、教程、踩坑记录 | `content/computer/` |
+| 想写的内容               | 放在哪个目录          |
+| ------------------------ | --------------------- |
+| 科研、课程、论文笔记     | `content/computer/` |
+| 技术栈、教程、踩坑记录   | `content/computer/` |
 | 比赛（ACM、CTF、数模等） | `content/computer/` |
-| CS（反恐精英） | `content/other/` |
-| 音乐 | `content/other/` |
-| 随笔、生活 | `content/other/` |
+| CS（反恐精英）           | `content/other/`    |
+| 音乐                     | `content/other/`    |
+| 随笔、生活               | `content/other/`    |
 
 ### 最简单的方式：一条命令新建文章
 
@@ -49,7 +49,7 @@ hugo new content computer/我的第一篇文章/index.md
 hugo new content other/我的随笔/index.md
 ```
 
-> Windows 如果提示找不到 `hugo` 命令，先去 <https://github.com/gohugoio/hugo/releases> 下载 `hugo_extended_xxx_windows-amd64.zip`，解压后把 `hugo.exe` 所在目录加入系统环境变量 Path。
+> Windows 如果提示找不到 `hugo` 命令，先去 [https://github.com/gohugoio/hugo/releases](https://github.com/gohugoio/hugo/releases) 下载 `hugo_extended_xxx_windows-amd64.zip`，解压后把 `hugo.exe` 所在目录加入系统环境变量 Path。
 
 ### 文章格式（front matter 模板）
 
@@ -71,10 +71,10 @@ math: false                    # 写数学公式时改成 true
 
 **方向标签（六个，名字不能错）：**
 
-| 板块 | 可用标签 |
-|---|---|
-| 计算机 | `科研`、`技术栈`、`比赛` |
-| 其他 | `CS反恐精英`、`音乐`、`随笔` |
+| 板块   | 可用标签                           |
+| ------ | ---------------------------------- |
+| 计算机 | `科研`、`技术栈`、`比赛`     |
+| 其他   | `CS反恐精英`、`音乐`、`随笔` |
 
 文章头部和结尾会自动显示标签，点击标签可查看该方向下的所有文章。
 
@@ -94,16 +94,16 @@ content/computer/我的文章/
 
 ## 三、常用修改速查
 
-| 想改什么 | 改哪里 |
-|---|---|
-| 自我介绍（主页/关于页） | `content/_index.md` |
-| 换头像 | 替换 `picture/Profile.png` 后，复制覆盖到 `assets/img/Profile.png` |
-| 网站图标 | 替换 `assets/img/Site.png` |
-| 站点标题 / 副标题 | `config/_default/hugo.toml`、`config/_default/languages.toml` |
-| GitHub / B站链接 | `config/_default/menu.toml` |
-| 新增一个方向（标签+分类页图片） | 在 `content/tags/` 下新建目录，参照现有标签的结构（`_index.md` + 图片） |
-| 版权协议文字 | `config/_default/params.toml` 的 `[article.license]` |
-| 每页文章数量 | `config/_default/hugo.toml` 的 `pagerSize` |
+| 想改什么                        | 改哪里                                                                     |
+| ------------------------------- | -------------------------------------------------------------------------- |
+| 自我介绍（主页/关于页）         | `content/_index.md`                                                      |
+| 换头像                          | 替换`picture/Profile.png` 后，复制覆盖到 `assets/img/Profile.png`      |
+| 网站图标                        | 替换`assets/img/Site.png`                                                |
+| 站点标题 / 副标题               | `config/_default/hugo.toml`、`config/_default/languages.toml`          |
+| GitHub / B站链接                | `config/_default/menu.toml`                                              |
+| 新增一个方向（标签+分类页图片） | 在`content/tags/` 下新建目录，参照现有标签的结构（`_index.md` + 图片） |
+| 版权协议文字                    | `config/_default/params.toml` 的 `[article.license]`                   |
+| 每页文章数量                    | `config/_default/hugo.toml` 的 `pagerSize`                             |
 
 ## 四、本地预览与发布
 
@@ -132,8 +132,8 @@ push 后 GitHub Actions 会自动构建并部署，一两分钟后线上生效�
 
 **首次启用还需要两步（只做一次）：**
 
-1. 打开 <https://github.com/TauQ1u/my_blog/settings>，勾选 **Discussions** 功能；
-2. 打开 <https://giscus.app>，在配置页：
+1. 打开 [https://github.com/TauQ1u/my_blog/settings](https://github.com/TauQ1u/my_blog/settings)，勾选 **Discussions** 功能；
+2. 打开 [https://giscus.app](https://giscus.app)，在配置页：
    - `repository` 填 `TauQ1u/my_blog`；
    - 按提示安装 giscus 的 GitHub App；
    - Discussion 分类选 **General**；
