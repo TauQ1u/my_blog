@@ -2,7 +2,7 @@
     identifier = "tags"
     name       = "分类"
     url        = "/zh/tags/"
-    weight     = -55
+    weight     = -85
 
     [main.params]
         icon = "categories"

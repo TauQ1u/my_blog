@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tauq1u.github.io/my_blog/ja/page/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
+    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -20,26 +20,8 @@
                 href="https://tauq1u.github.io/my_blog/ja/page/"
                 />
   </url><url>
-    <loc>https://tauq1u.github.io/my_blog/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/%E5%85%B3%E4%BA%8E/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/%E9%97%9C%E6%96%BC/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
-                />
-  </url><url>
     <loc>https://tauq1u.github.io/my_blog/ja/archives/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
+    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -54,29 +36,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://tauq1u.github.io/my_blog/ja/archives/"
-                />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/ja/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tauq1u.github.io/my_blog/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/"
                 />
   </url><url>
     <loc>https://tauq1u.github.io/my_blog/ja/tags/</loc>
@@ -101,8 +60,31 @@
                 href="https://tauq1u.github.io/my_blog/ja/tags/"
                 />
   </url><url>
+    <loc>https://tauq1u.github.io/my_blog/ja/</loc>
+    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tauq1u.github.io/my_blog/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://tauq1u.github.io/my_blog/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant-tw"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://tauq1u.github.io/my_blog/ja/"
+                />
+  </url><url>
     <loc>https://tauq1u.github.io/my_blog/ja/search/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
+    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
