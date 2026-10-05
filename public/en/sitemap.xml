@@ -2,28 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tauq1u.github.io/my_blog/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tauq1u.github.io/my_blog/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/categories/"
-                />
-  </url><url>
     <loc>https://tauq1u.github.io/my_blog/en/</loc>
     <xhtml:link
                 rel="alternate"

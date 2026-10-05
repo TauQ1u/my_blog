@@ -1,0 +1,26 @@
+{{ define "main" }}
+    {{ $directions := where .Pages "Params.image" "ne" nil }}
+    <header>
+        <h3 class="section-title">分类</h3>
+        <div class="section-card">
+            <div class="section-details">
+                <h3 class="section-count">{{ T "list.page" (len $directions) }}</h3>
+            </div>
+        </div>
+    </header>
+
+    {{/* 以图片卡片形式展示各方向（标签）；仅展示配置了图片的方向 */}}
+    <div class="subsection-list">
+        <div class="article-list--tile">
+            {{ range $directions }}
+                {{ partial "article-list/tile" . }}
+            {{ end }}
+        </div>
+    </div>
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

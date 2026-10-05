@@ -2,47 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tauq1u.github.io/my_blog/zh/categories/</loc>
-    <lastmod>2026-08-26T00:03:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tauq1u.github.io/my_blog/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/categories/"
-                />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/gallery/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/tags/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/tags/gallery/"
-                />
-  </url><url>
     <loc>https://tauq1u.github.io/my_blog/zh/page/</loc>
     <lastmod>2026-08-25T14:13:59+08:00</lastmod>
     <xhtml:link
@@ -59,83 +18,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://tauq1u.github.io/my_blog/ja/page/"
-                />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/photoswipe/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/tags/photoswipe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/photoswipe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/tags/photoswipe/"
-                />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/post/</loc>
-    <lastmod>2026-08-26T00:03:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/post/"
-                />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/</loc>
-    <lastmod>2026-08-26T00:03:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tauq1u.github.io/my_blog/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/tags/"
-                />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/%E7%9F%AD%E4%BB%A3%E7%A0%81/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/p/%E7%9F%AD%E4%BB%A3%E7%A0%81/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/p/%E7%9F%AD%E4%BB%A3%E7%A2%BC/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/p/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89/"
                 />
   </url><url>
     <loc>https://tauq1u.github.io/my_blog/zh/%E5%85%B3%E4%BA%8E/</loc>
@@ -156,75 +38,6 @@
                 href="https://tauq1u.github.io/my_blog/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
                 />
   </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/image-gallery/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/p/image-gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/p/image-gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/p/image-gallery/"
-                />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/%E9%9A%90%E7%A7%81/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/tags/%E9%9A%90%E7%A7%81/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/%E9%9A%90%E7%A7%81/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/tags/%E9%9A%90%E7%A7%81/"
-                />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/css/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/html/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/markdown/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/markdown-%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/themes/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/math-typesetting/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/diagrams/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/mermaid/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/mermaid-diagrams/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/categories/syntax/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/categories/themes/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
     <loc>https://tauq1u.github.io/my_blog/zh/archives/</loc>
     <lastmod>2026-08-25T14:13:59+08:00</lastmod>
     <xhtml:link
@@ -242,51 +55,6 @@
                 hreflang="ja"
                 href="https://tauq1u.github.io/my_blog/ja/archives/"
                 />
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/pagination/</loc>
-    <lastmod>2026-08-26T00:03:52+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-12/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/tags/test/</loc>
-    <lastmod>2026-08-26T00:03:52+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/categories/testing/</loc>
-    <lastmod>2026-08-26T00:03:52+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-11/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-10/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-09/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-08/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-07/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-06/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-05/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-04/</loc>
-    <lastmod>2026-08-26T00:03:52+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-03/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-02/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/p/pagination-test-01/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
   </url><url>
     <loc>https://tauq1u.github.io/my_blog/zh/</loc>
     <lastmod>2026-08-25T14:13:59+08:00</lastmod>
@@ -311,23 +79,46 @@
                 href="https://tauq1u.github.io/my_blog/ja/"
                 />
   </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/%E9%93%BE%E6%8E%A5/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
+    <loc>https://tauq1u.github.io/my_blog/zh/tags/cs/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/zh/tags/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tauq1u.github.io/my_blog/en/tags/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/%E9%93%BE%E6%8E%A5/"
+                href="https://tauq1u.github.io/my_blog/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/%E9%8F%88%E6%8E%A5/"
+                href="https://tauq1u.github.io/my_blog/zh-hant-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/%E3%83%AA%E3%83%B3%E3%82%AF/"
+                href="https://tauq1u.github.io/my_blog/ja/tags/"
                 />
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/zh/tags/competition/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/zh/computer/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/zh/tags/technology/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/zh/tags/science/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/zh/other/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
   </url><url>
     <loc>https://tauq1u.github.io/my_blog/zh/search/</loc>
     <lastmod>2026-08-25T14:13:59+08:00</lastmod>
@@ -347,22 +138,10 @@
                 href="https://tauq1u.github.io/my_blog/ja/search/"
                 />
   </url><url>
-    <loc>https://tauq1u.github.io/my_blog/zh/categories/documentation/</loc>
-    <lastmod>2026-08-25T14:13:59+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://tauq1u.github.io/my_blog/zh/categories/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://tauq1u.github.io/my_blog/zh-hant-tw/categories/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://tauq1u.github.io/my_blog/ja/categories/documentation/"
-                />
+    <loc>https://tauq1u.github.io/my_blog/zh/tags/essay/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/zh/tags/music/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
   </url>
 </urlset>

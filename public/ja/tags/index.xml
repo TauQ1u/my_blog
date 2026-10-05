@@ -4,24 +4,5 @@
         <link>https://tauq1u.github.io/my_blog/ja/tags/</link>
         <description>Recent content in Tags on Hugo Theme Stack</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>ja</language>
-        <lastBuildDate>Tue, 25 Aug 2026 14:13:59 +0800</lastBuildDate><atom:link href="https://tauq1u.github.io/my_blog/ja/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-            <title>Gallery</title>
-            <link>https://tauq1u.github.io/my_blog/ja/tags/gallery/</link>
-            <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-            <guid>https://tauq1u.github.io/my_blog/ja/tags/gallery/</guid>
-            <description></description>
-        </item><item>
-            <title>Photoswipe</title>
-            <link>https://tauq1u.github.io/my_blog/ja/tags/photoswipe/</link>
-            <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-            <guid>https://tauq1u.github.io/my_blog/ja/tags/photoswipe/</guid>
-            <description></description>
-        </item><item>
-            <title>隐私</title>
-            <link>https://tauq1u.github.io/my_blog/ja/tags/%E9%9A%90%E7%A7%81/</link>
-            <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-            <guid>https://tauq1u.github.io/my_blog/ja/tags/%E9%9A%90%E7%A7%81/</guid>
-            <description></description>
-        </item></channel>
+        <language>ja</language><atom:link href="https://tauq1u.github.io/my_blog/ja/tags/index.xml" rel="self" type="application/rss+xml" /></channel>
 </rss>

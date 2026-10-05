@@ -1,6 +1,6 @@
 baseURL                = "https://tauq1u.github.io/my_blog/"
 locale                 = "zh-CN"
-title                  = "TauQ1u's Blog"
+title                  = "TauQ1u的博客"
 # Theme i18n support
 # See i18n folder for available languages
 defaultContentLanguage = "zh"
@@ -25,3 +25,7 @@ enableGitInfo = true
 
 [frontmatter]
     lastmod = ["lastmod", ":git", ":fileModTime"]
+
+# 板块：计算机 / 其他；方向统一用标签（tags）呈现
+[taxonomies]
+    tag = "tags"
