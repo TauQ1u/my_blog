@@ -13,6 +13,9 @@ theme = "hugo-theme-stack"
 
 enableGitInfo = true
 
+# 让 Hugo 自动生成 robots.txt，方便搜索引擎抓取
+enableRobotsTXT = true
+
 [pagination]
     pagerSize = 3
 

@@ -29,15 +29,15 @@ favicon        = "img/Site.png"
 
     [comments.giscus]
         repo             = "TauQ1u/my_blog"
-        repoID           = "在此填入repoID"
+        repoID           = "R_kgDOUDZtzg"
         category         = "General"
-        categoryID       = "在此填入categoryID"
-        mapping          = "title"
+        categoryID       = "DIC_kwDOUDZtzs4DHDgD"
+        mapping          = "pathname"
         lightTheme       = "light"
         darkTheme        = "dark_dimmed"
         reactionsEnabled = 1
         emitMetadata     = 0
-        inputPosition    = "top"
+        inputPosition    = "bottom"
         lang             = "zh-CN"
         strict           = 0
         loading          = "lazy"
