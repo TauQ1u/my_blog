@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-		<sitemap>
-			<loc>https://tauq1u.github.io/my_blog/en/sitemap.xml</loc>
-			
-		</sitemap>
-	
-		<sitemap>
-			<loc>https://tauq1u.github.io/my_blog/zh/sitemap.xml</loc>
-			
-				<lastmod>2026-10-05T09:57:46+08:00</lastmod>
-			
-		</sitemap>
-	
-		<sitemap>
-			<loc>https://tauq1u.github.io/my_blog/zh-hant-tw/sitemap.xml</loc>
-			
-				<lastmod>2026-10-05T09:57:46+08:00</lastmod>
-			
-		</sitemap>
-	
-		<sitemap>
-			<loc>https://tauq1u.github.io/my_blog/ja/sitemap.xml</loc>
-			
-				<lastmod>2026-10-05T09:57:46+08:00</lastmod>
-			
-		</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tauq1u.github.io/my_blog/page/</loc>
+    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/archives/</loc>
+    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/tags/cs/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/tags/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/tags/competition/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/</loc>
+    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/computer/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/tags/technology/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/tags/science/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/other/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/search/</loc>
+    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/tags/essay/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url><url>
+    <loc>https://tauq1u.github.io/my_blog/tags/music/</loc>
+    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
+  </url>
+</urlset>

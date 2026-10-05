@@ -1,7 +1,7 @@
 [[main]]
     identifier = "tags"
     name       = "分类"
-    url        = "/zh/tags/"
+    url        = "/tags/"
     weight     = -85
 
     [main.params]

@@ -7,7 +7,8 @@ defaultContentLanguage = "zh"
 # Set hasCJKLanguage to true if DefaultContentLanguage is a CJK language
 # This will make .Summary and .WordCount behave correctly
 hasCJKLanguage         = true
-defaultContentLanguageInSubdir = true
+# 站点只有简体中文一种语言，直接使用站点根路径（/my_blog/），不再放入 /zh/ 子目录
+defaultContentLanguageInSubdir = false
 
 theme = "hugo-theme-stack"
 
