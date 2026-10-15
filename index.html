@@ -1,225 +1,264 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Home - TauQ1u’s Blog</title>
+<meta name="description" content="Personal blog of TauQ1u — Computer Science and Technology undergraduate at NCU, member of GOODLAB.">
+
+
+  <meta name="author" content="TauQ1u">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="TauQ1u's Blog">
+<meta property="og:title" content="Home">
+<meta property="og:url" content="https://tauq1u.github.io/my_blog/">
+
+
+  <meta property="og:description" content="Personal blog of TauQ1u — Computer Science and Technology undergraduate at NCU, member of GOODLAB.">
+
+
+
+  <meta property="og:image" content="https://tauq1u.github.io/my_blog/assets/images/Sky.png">
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://tauq1u.github.io/my_blog/">
+
+
+
+
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+    "name": "TauQ1u",
+    "url": "https://tauq1u.github.io/my_blog/"
+}
+</script>
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/my_blog/feed.xml" type="application/atom+xml" rel="alternate" title="TauQ1u's Blog Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/my_blog/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- Favicon & site icon (unchanged from the previous blog) -->
+<link rel="icon" type="image/png" href="/my_blog/assets/images/Site.png">
+<link rel="apple-touch-icon" href="/my_blog/assets/images/Site.png">
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
     
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TauQ1u的博客</title>
-    <meta name="description" content="一个有趣的灵魂">
-    <style>
-        :root {
-            --text: #f5f5f5;
-            --text-dim: rgba(245, 245, 245, 0.75);
-        }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        html, body {
-            height: 100%;
-            overflow: hidden;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
-                "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
-            color: var(--text);
-            background: #0d1117;
-        }
-
-         
-        .hero {
-            position: relative;
-            height: 100vh;
-            height: 100dvh;
-            background: url("/my_blog/img/hero.jpg") center / cover no-repeat;
-            animation: fadeIn 1.2s ease-out both;
-        }
-
-        .hero::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(
-                to bottom,
-                rgba(10, 12, 20, 0.35) 0%,
-                rgba(10, 12, 20, 0.05) 35%,
-                rgba(10, 12, 20, 0.05) 60%,
-                rgba(10, 12, 20, 0.45) 100%
-            );
-        }
-
-         
-        .nav {
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            z-index: 10;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 18px 48px;
-            animation: slideDown 0.8s 0.3s ease-out both;
-        }
-
-        .nav .brand {
-            font-size: 1.15rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-            color: var(--text);
-            text-decoration: none;
-            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-        }
-
-        .nav .links {
-            display: flex;
-            gap: 28px;
-            list-style: none;
-        }
-
-        .nav .links a {
-            color: var(--text-dim);
-            text-decoration: none;
-            font-size: 0.95rem;
-            letter-spacing: 1px;
-            padding: 6px 2px;
-            border-bottom: 2px solid transparent;
-            transition: color 0.25s, border-color 0.25s;
-            text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
-        }
-
-        .nav .links a:hover {
-            color: #fff;
-            border-bottom-color: var(--text);
-        }
-
-         
-        .hero-content {
-            position: absolute;
-            inset: 0;
-            z-index: 5;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 0 24px;
-            animation: fadeUp 1s 0.5s ease-out both;
-        }
-
-        .hero-content h1 {
-            font-size: clamp(2.2rem, 6vw, 4rem);
-            font-weight: 700;
-            letter-spacing: 6px;
-            text-shadow: 0 4px 24px rgba(0, 0, 0, 0.55);
-        }
-
-        .hero-content .subtitle {
-            margin-top: 18px;
-            font-size: clamp(1rem, 2.2vw, 1.25rem);
-            letter-spacing: 4px;
-            color: var(--text-dim);
-            text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
-        }
-
-        .hero-content .enter {
-            margin-top: 42px;
-            display: inline-block;
-            padding: 12px 42px;
-            border: 1.5px solid rgba(255, 255, 255, 0.85);
-            border-radius: 999px;
-            color: var(--text);
-            text-decoration: none;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            background: rgba(0, 0, 0, 0.15);
-            backdrop-filter: blur(6px);
-            -webkit-backdrop-filter: blur(6px);
-            transition: background 0.3s, transform 0.3s;
-        }
-
-        .hero-content .enter:hover {
-            background: rgba(255, 255, 255, 0.18);
-            transform: translateY(-2px);
-        }
-
-         
-        .scroll-hint {
-            position: absolute;
-            bottom: 28px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 5;
-            color: var(--text-dim);
-            font-size: 0.85rem;
-            letter-spacing: 3px;
-            text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 8px;
-            animation: fadeIn 1s 1.2s ease-out both;
-        }
-
-        .scroll-hint .chevron {
-            width: 22px;
-            height: 22px;
-            border-right: 2px solid var(--text-dim);
-            border-bottom: 2px solid var(--text-dim);
-            transform: rotate(45deg);
-            animation: bounce 1.8s infinite;
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: rotate(45deg) translate(0, 0); opacity: 0.9; }
-            50%      { transform: rotate(45deg) translate(6px, 6px); opacity: 0.4; }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to   { opacity: 1; }
-        }
-
-        @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(24px); }
-            to   { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes slideDown {
-            from { opacity: 0; transform: translateY(-16px); }
-            to   { opacity: 1; transform: translateY(0); }
-        }
-
-        @media (max-width: 640px) {
-            .nav { padding: 14px 20px; }
-            .nav .links { gap: 16px; }
-            .nav .links a { font-size: 0.85rem; letter-spacing: 0; }
-            .nav .brand { font-size: 1rem; }
-        }
-    </style>
-	<meta name="generator" content="Hugo 0.168.0">
-</head>
-<body>
-    <div class="hero">
-        <header class="nav">
-            <a class="brand" href="/my_blog/">TauQ1u的博客</a>
-            <nav>
-                <ul class="links">
-                    <li><a href="/my_blog/">首页</a></li>
-                    <li><a href="/my_blog/archives/">归档</a></li>
-                    <li><a href="/my_blog/tags/">分类</a></li>
-                    <li><a href="/my_blog/search/">搜索</a></li>
-                    <li><a href="/my_blog/about/">关于</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main class="hero-content">
-            <h1>TauQ1u的博客</h1>
-            <p class="subtitle">一个有趣的灵魂</p>
-            <a class="enter" href="/my_blog/archives/">进入博客</a>
-        </main>
-
-        <a class="scroll-hint" href="/my_blog/archives/">
-            <span>向下滚动</span>
-            <span class="chevron"></span>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/my_blog/">
+          TauQ1u's Blog
+          
         </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/my_blog/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/my_blog/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/my_blog/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/my_blog/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
     </div>
-</body>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/my_blog/assets/images/Sky.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Home
+
+        
+      </h1>
+      
+      
+
+
+      
+        <p>
+        
+          <a href="/my_blog/posts/" class="btn btn--light-outline btn--large">Read the Posts</a>
+        
+        </p>
+      
+    </div>
+  
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Home">
+    
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h2 id="introduction">Introduction</h2>
+
+<p>TauQ1u is a undergraduate in Computer Science and Technology at Nanchang University (NCU), expected to graduate in 2029. Since Jun 2026, he has been a intern member of GOODLAB.</p>
+
+<h2 id="publications">Publications</h2>
+
+<p>Coming Soon.</p>
+
+<h2 id="under-review--preprints">Under Review / Preprints</h2>
+
+<p>Coming Soon.</p>
+
+<h2 id="honors-and-awards">Honors and Awards</h2>
+
+<ol>
+  <li>2026.10 Merit Award World Vocational College Skills Competition</li>
+</ol>
+
+    </section>
+  </article>
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/TauQ1u" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/my_blog/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://tauq1u.github.io">TauQ1u's Blog</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/my_blog/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
 </html>

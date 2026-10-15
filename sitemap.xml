@@ -1,47 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://tauq1u.github.io/my_blog/page/</loc>
-    <lastmod>2026-10-15T19:41:58+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/archives/</loc>
-    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/tags/cs/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/tags/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/tags/competition/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/about/</loc>
-    <lastmod>2026-10-15T19:41:58+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/computer/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/tags/technology/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/tags/science/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/other/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/</loc>
-    <lastmod>2026-10-15T19:41:58+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/search/</loc>
-    <lastmod>2026-10-05T09:57:46+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/tags/essay/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url><url>
-    <loc>https://tauq1u.github.io/my_blog/tags/music/</loc>
-    <lastmod>2026-10-05T09:16:21+08:00</lastmod>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://tauq1u.github.io/my_blog/about/</loc>
+</url>
+<url>
+<loc>https://tauq1u.github.io/my_blog/categories/</loc>
+</url>
+<url>
+<loc>https://tauq1u.github.io/my_blog/</loc>
+</url>
+<url>
+<loc>https://tauq1u.github.io/my_blog/posts/</loc>
+</url>
 </urlset>

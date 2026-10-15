@@ -1,0 +1,142 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely edit after that.
+# TauQ1u's Blog — powered by the Minimal Mistakes Jekyll theme (skin: dirt).
+
+# Site settings
+locale: "en-US"
+title: TauQ1u's Blog
+title_separator: "-"
+name: TauQ1u
+description: Personal blog of TauQ1u — Computer Science and Technology undergraduate at NCU, member of GOODLAB.
+url: "https://tauq1u.github.io"
+baseurl: "/my_blog"
+repository: "TauQ1u/my_blog"
+teaser: # path of fallback teaser image
+# breadcrumbs: true
+
+# Build settings
+markdown: kramdown
+remote_theme: # not used — the theme is vendored locally
+permalink: /posts/:title/
+timezone: Asia/Shanghai
+
+include:
+  - _pages
+  - BingSiteAuth.xml
+
+# Exclude from processing
+exclude:
+  - .agents
+  - .github
+  - LICENSE-theme.txt
+  - README.md
+  - "*.gem"
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins (all supported natively by GitHub Pages)
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Skin — Minimal Mistakes "dirt"
+minimal_mistakes_skin: "dirt"
+
+# Site author (left sidebar)
+author:
+  name: "TauQ1u"
+  avatar: "/assets/images/Profile.png"
+  bio: "NCU Undergraduate · Computer Science and Technology · Member of GOODLAB"
+  location:
+  email:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/TauQ1u"
+
+# Site footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/TauQ1u"
+
+# Reading files
+encoding: "utf-8"
+
+# Conversion
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+lsi: false
+excerpt_separator: "\n\n"
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Front matter defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+      header:
+        overlay_image: /assets/images/Sky.png
+        overlay_filter: 0.3
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# Comments — giscus
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOUDZtzg"
+    category_name: "General"
+    category_id: "DIC_kwDOUDZtzs4DHDgD"
+    discussion_term: "pathname"
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: "bottom"
+    lang: "en"
+    lazy: true
+
+# Analytics
+analytics:
+  provider: false

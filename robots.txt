@@ -1,5 +1,1 @@
-User-agent: *
-
-Disallow:
-
 Sitemap: https://tauq1u.github.io/my_blog/sitemap.xml

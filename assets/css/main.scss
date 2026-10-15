@@ -1,0 +1,22 @@
+---
+# Custom CSS/SCSS entry — Minimal Mistakes (skin: dirt) + customizations
+search: false
+---
+
+@charset "utf-8";
+
+/* Custom font: Courier (from the former "Coueier" folder) */
+@font-face {
+  font-family: "CourierCustom";
+  src: url("{{ '/assets/fonts/Courier-1.ttf' | relative_url }}") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Use the custom Courier font across the whole site */
+$global-font-family: "CourierCustom", "Courier New", Courier, monospace;
+$header-font-family: "CourierCustom", "Courier New", Courier, monospace;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
