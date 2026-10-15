@@ -5,12 +5,18 @@
         <description>Recent content in Pages on TauQ1u的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Mon, 05 Oct 2026 09:57:46 +0800</lastBuildDate><atom:link href="https://tauq1u.github.io/my_blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 15 Oct 2026 19:41:58 +0800</lastBuildDate><atom:link href="https://tauq1u.github.io/my_blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>归档</title>
             <link>https://tauq1u.github.io/my_blog/archives/</link>
             <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
             <guid>https://tauq1u.github.io/my_blog/archives/</guid>
             <description></description>
+        </item><item>
+            <title>关于</title>
+            <link>https://tauq1u.github.io/my_blog/about/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>https://tauq1u.github.io/my_blog/about/</guid>
+            <description>&lt;p&gt;你好，我是 &lt;strong&gt;TauQ1u&lt;/strong&gt;，欢迎来到我的博客。&lt;/p&gt;&#xA;&lt;p&gt;这里是我的个人空间，记录我感兴趣的一切：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;计算机&lt;/strong&gt;：科研学习、技术栈探索、比赛经历&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;：CS🎮、音乐 🎵、随笔 ✍️&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于我&#34;&gt;关于我&#xA;&lt;/h2&gt;&lt;p&gt;平平无奇的20岁大学生&lt;/p&gt;&#xA;&lt;!-- 在这里介绍你自己：学校 / 工作、研究方向、正在学习的技术…… --&gt;&#xA;&lt;h2 id=&#34;找到我&#34;&gt;找到我&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;GitHub：&lt;a class=&#34;link&#34; href=&#34;https://github.com/TauQ1u&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;TauQ1u&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;哔哩哔哩：&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/3546597981948005&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;我的空间&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
         </item><item>
             <title>搜索</title>
             <link>https://tauq1u.github.io/my_blog/search/</link>

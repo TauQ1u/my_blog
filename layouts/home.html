@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-CN" }}">
+<head>
+    {{ $hero := partial "helper/image" (dict "Image" "img/hero.jpg" "Resources" resources "Context" .) }}
+    {{ $base := .Site.Home.RelPermalink }}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.sidebar.subtitle | default .Site.Title }}">
+    <style>
+        :root {
+            --text: #f5f5f5;
+            --text-dim: rgba(245, 245, 245, 0.75);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+            color: var(--text);
+            background: #0d1117;
+        }
+
+        /* ---------- 全屏背景 ---------- */
+        .hero {
+            position: relative;
+            height: 100vh;
+            height: 100dvh;
+            background: url("{{ $hero.Permalink }}") center / cover no-repeat;
+            animation: fadeIn 1.2s ease-out both;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                to bottom,
+                rgba(10, 12, 20, 0.35) 0%,
+                rgba(10, 12, 20, 0.05) 35%,
+                rgba(10, 12, 20, 0.05) 60%,
+                rgba(10, 12, 20, 0.45) 100%
+            );
+        }
+
+        /* ---------- 顶部导航 ---------- */
+        .nav {
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 48px;
+            animation: slideDown 0.8s 0.3s ease-out both;
+        }
+
+        .nav .brand {
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: var(--text);
+            text-decoration: none;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav .links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav .links a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            padding: 6px 2px;
+            border-bottom: 2px solid transparent;
+            transition: color 0.25s, border-color 0.25s;
+            text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav .links a:hover {
+            color: #fff;
+            border-bottom-color: var(--text);
+        }
+
+        /* ---------- 居中大标题 ---------- */
+        .hero-content {
+            position: absolute;
+            inset: 0;
+            z-index: 5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 24px;
+            animation: fadeUp 1s 0.5s ease-out both;
+        }
+
+        .hero-content h1 {
+            font-size: clamp(2.2rem, 6vw, 4rem);
+            font-weight: 700;
+            letter-spacing: 6px;
+            text-shadow: 0 4px 24px rgba(0, 0, 0, 0.55);
+        }
+
+        .hero-content .subtitle {
+            margin-top: 18px;
+            font-size: clamp(1rem, 2.2vw, 1.25rem);
+            letter-spacing: 4px;
+            color: var(--text-dim);
+            text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-content .enter {
+            margin-top: 42px;
+            display: inline-block;
+            padding: 12px 42px;
+            border: 1.5px solid rgba(255, 255, 255, 0.85);
+            border-radius: 999px;
+            color: var(--text);
+            text-decoration: none;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            background: rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .hero-content .enter:hover {
+            background: rgba(255, 255, 255, 0.18);
+            transform: translateY(-2px);
+        }
+
+        /* ---------- 底部向下滚动提示 ---------- */
+        .scroll-hint {
+            position: absolute;
+            bottom: 28px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 5;
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            letter-spacing: 3px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            animation: fadeIn 1s 1.2s ease-out both;
+        }
+
+        .scroll-hint .chevron {
+            width: 22px;
+            height: 22px;
+            border-right: 2px solid var(--text-dim);
+            border-bottom: 2px solid var(--text-dim);
+            transform: rotate(45deg);
+            animation: bounce 1.8s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: rotate(45deg) translate(0, 0); opacity: 0.9; }
+            50%      { transform: rotate(45deg) translate(6px, 6px); opacity: 0.4; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(24px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-16px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 640px) {
+            .nav { padding: 14px 20px; }
+            .nav .links { gap: 16px; }
+            .nav .links a { font-size: 0.85rem; letter-spacing: 0; }
+            .nav .brand { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <header class="nav">
+            <a class="brand" href="{{ $base }}">{{ .Site.Title }}</a>
+            <nav>
+                <ul class="links">
+                    <li><a href="{{ $base }}">首页</a></li>
+                    <li><a href="{{ $base }}archives/">归档</a></li>
+                    <li><a href="{{ $base }}tags/">分类</a></li>
+                    <li><a href="{{ $base }}search/">搜索</a></li>
+                    <li><a href="{{ $base }}about/">关于</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="hero-content">
+            <h1>{{ .Site.Title }}</h1>
+            <p class="subtitle">{{ .Site.Params.sidebar.subtitle | default "记录生活与技术" }}</p>
+            <a class="enter" href="{{ $base }}archives/">进入博客</a>
+        </main>
+
+        <a class="scroll-hint" href="{{ $base }}archives/">
+            <span>向下滚动</span>
+            <span class="chevron"></span>
+        </a>
+    </div>
+</body>
+</html>
