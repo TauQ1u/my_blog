@@ -4,11 +4,8 @@ permalink: /
 title: "Home"
 hidden: true
 header:
-  overlay_image: /assets/images/Sky.png
-  overlay_filter: 0.2
-  actions:
-    - label: "Read the Posts"
-      url: "/posts/"
+  image: /assets/images/Sky.png
+  overlay_image: false
 ---
 
 ## Introduction
