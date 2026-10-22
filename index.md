@@ -4,7 +4,7 @@ permalink: /
 title: "Home"
 hidden: true
 header:
-  image: /assets/images/Sky.png
+  image: /assets/images/field.jpg
   overlay_image: false
 ---
 
