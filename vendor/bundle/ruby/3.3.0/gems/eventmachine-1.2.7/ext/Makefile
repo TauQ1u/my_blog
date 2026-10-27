@@ -13,12 +13,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /opt/hostedtoolcache/Ruby/3.3.12/x64/include/ruby-3.3.0
+topdir = /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0
 hdrdir = $(topdir)
-arch_hdrdir = /opt/hostedtoolcache/Ruby/3.3.12/x64/include/ruby-3.3.0/x86_64-linux
+arch_hdrdir = /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/x86_64-linux
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/opt/hostedtoolcache/Ruby/3.3.12/x64
+prefix = $(DESTDIR)/opt/hostedtoolcache/Ruby/3.3.13/x64
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)

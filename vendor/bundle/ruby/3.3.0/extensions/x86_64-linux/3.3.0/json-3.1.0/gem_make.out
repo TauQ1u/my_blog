@@ -1,5 +1,5 @@
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-/opt/hostedtoolcache/Ruby/3.3.12/x64/bin/ruby extconf.rb
+/opt/hostedtoolcache/Ruby/3.3.13/x64/bin/ruby extconf.rb
 checking for rb_enc_interned_str() in ruby/encoding.h... yes
 checking for rb_str_to_interned_str() in ruby.h... yes
 checking for rb_hash_new_capa() in ruby.h... yes
@@ -16,16 +16,16 @@ checking for cpuid.h... yes
 creating Makefile
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20261015-2175-1f7znz sitelibdir\=./.gem.20261015-2175-1f7znz clean
+make DESTDIR\= sitearchdir\=./.gem.20261027-2255-thjqy2 sitelibdir\=./.gem.20261027-2255-thjqy2 clean
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20261015-2175-1f7znz sitelibdir\=./.gem.20261015-2175-1f7znz
+make DESTDIR\= sitearchdir\=./.gem.20261027-2255-thjqy2 sitelibdir\=./.gem.20261027-2255-thjqy2
 compiling parser.c
 linking shared-object json/ext/parser.so
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20261015-2175-1f7znz sitelibdir\=./.gem.20261015-2175-1f7znz install
-/usr/bin/install -c -m 0755 parser.so ./.gem.20261015-2175-1f7znz/json/ext
+make DESTDIR\= sitearchdir\=./.gem.20261027-2255-thjqy2 sitelibdir\=./.gem.20261027-2255-thjqy2 install
+/usr/bin/install -c -m 0755 parser.so ./.gem.20261027-2255-thjqy2/json/ext
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20261015-2175-1f7znz sitelibdir\=./.gem.20261015-2175-1f7znz clean
+make DESTDIR\= sitearchdir\=./.gem.20261027-2255-thjqy2 sitelibdir\=./.gem.20261027-2255-thjqy2 clean
