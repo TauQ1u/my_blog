@@ -113,8 +113,8 @@ defaults:
       share: false
       related: true
       header:
-        overlay_image: /assets/images/field.jpg
-        overlay_filter: 0.3
+        image: /assets/images/Mountain.jpg
+        overlay_image: false
   # _pages
   - scope:
       path: ""
