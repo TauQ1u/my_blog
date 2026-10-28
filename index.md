@@ -22,4 +22,5 @@ Coming Soon.
 
 ## Honors and Awards
 
-1. 2026.10 Merit Award World Vocational College Skills Competition
+1. 2026.10 **Merit Award**  World Vocational College Skills Competition
+1. 2026.10  **2nd Place**  Gaming Track — Super Coding Weekend Nanchang 
