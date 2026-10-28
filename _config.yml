@@ -128,13 +128,14 @@ comments:
   provider: "giscus"
   giscus:
     repo_id: "R_kgDOUDZtzg"
-    category_name: "General"
-    category_id: "DIC_kwDOUDZtzs4DHDgD"
+    category_name: "Ideas"
+    category_id: "DIC_kwDOUDZtzs4DHDgF"
     discussion_term: "pathname"
     reactions_enabled: 1
     emit_metadata: 0
-    input_position: "bottom"
-    lang: "en"
+    input_position: "top"
+    theme: "preferred_color_scheme"
+    lang: "zh-CN"
     lazy: true
 
 # Use tags as the single taxonomy archive, linked from the Categories page.
