@@ -2,7 +2,7 @@
 title: "Research Notes 01"
 date: 2026-10-29
 tags:
-  -Research
+  - Research
 ---
 
 

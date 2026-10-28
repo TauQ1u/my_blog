@@ -110,7 +110,7 @@ defaults:
       layout: single
       author_profile: true
       comments: true
-      share: true
+      share: false
       related: true
       header:
         overlay_image: /assets/images/field.jpg
@@ -136,6 +136,11 @@ comments:
     input_position: "bottom"
     lang: "en"
     lazy: true
+
+# Use tags as the single taxonomy archive, linked from the Categories page.
+tag_archive:
+  type: liquid
+  path: /categories/
 
 # Analytics
 analytics:
