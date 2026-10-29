@@ -16,16 +16,16 @@ checking for cpuid.h... yes
 creating Makefile
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20261027-2255-thjqy2 sitelibdir\=./.gem.20261027-2255-thjqy2 clean
+make DESTDIR\= sitearchdir\=./.gem.20261029-2250-dpwlod sitelibdir\=./.gem.20261029-2250-dpwlod clean
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20261027-2255-thjqy2 sitelibdir\=./.gem.20261027-2255-thjqy2
+make DESTDIR\= sitearchdir\=./.gem.20261029-2250-dpwlod sitelibdir\=./.gem.20261029-2250-dpwlod
 compiling parser.c
 linking shared-object json/ext/parser.so
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20261027-2255-thjqy2 sitelibdir\=./.gem.20261027-2255-thjqy2 install
-/usr/bin/install -c -m 0755 parser.so ./.gem.20261027-2255-thjqy2/json/ext
+make DESTDIR\= sitearchdir\=./.gem.20261029-2250-dpwlod sitelibdir\=./.gem.20261029-2250-dpwlod install
+/usr/bin/install -c -m 0755 parser.so ./.gem.20261029-2250-dpwlod/json/ext
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20261027-2255-thjqy2 sitelibdir\=./.gem.20261027-2255-thjqy2 clean
+make DESTDIR\= sitearchdir\=./.gem.20261029-2250-dpwlod sitelibdir\=./.gem.20261029-2250-dpwlod clean

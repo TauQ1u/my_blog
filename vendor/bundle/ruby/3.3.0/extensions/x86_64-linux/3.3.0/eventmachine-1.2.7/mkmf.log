@@ -2,7 +2,7 @@ pkg_config: checking for pkg-config for openssl... -------------------- [" ", ""
 
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib pkg-config --exists openssl
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib pkg-config --libs openssl |
-=> "-lssl -lcrypto \n"
+=> "-lssl -lcrypto\n"
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib "gcc -o conftest -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/x86_64-linux -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0 -I. -DENABLE_PATH_CHECK=0   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef  -fPIC conftest.c  -L. -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -lruby  -lm -lpthread  -lc"
 checked program was:
 /* begin */
@@ -30,7 +30,7 @@ LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib pkg-config --cflags-o
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib pkg-config --cflags-only-other openssl |
 => "\n"
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib pkg-config --libs-only-l openssl |
-=> "-lssl -lcrypto \n"
+=> "-lssl -lcrypto\n"
 package configuration for openssl
 incflags: 
 cflags: 
@@ -172,8 +172,8 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib "gcc -o conftest -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/x86_64-linux -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0 -I.  -DENABLE_PATH_CHECK=0   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef  -fPIC  conftest.c  -L. -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm -lpthread  -lc"
-/usr/bin/ld: /tmp/ccNx0o8N.o: in function `t':
-/home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/conftest.c:15:(.text+0xb): undefined reference to `rb_thread_blocking_region'
+/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/cciQKNPc.o: in function `t':
+/home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/conftest.c:15:(.text+0x9): undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -344,8 +344,8 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib "gcc -o conftest -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/x86_64-linux -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0 -I.  -DENABLE_PATH_CHECK=0   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef  -fPIC  conftest.c  -L. -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm -lpthread  -lc"
-/usr/bin/ld: /tmp/cciI4EcV.o: in function `t':
-/home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/conftest.c:15:(.text+0xb): undefined reference to `rb_enable_interrupt'
+/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/cc9slN3y.o: in function `t':
+/home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/conftest.c:15:(.text+0x9): undefined reference to `rb_enable_interrupt'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -611,10 +611,10 @@ In file included from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ru
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/ruby.h:27,
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby.h:38,
                  from conftest.c:1:
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: "RUBY_API_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: ‘RUBY_API_VERSION_MAJOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |      ^~~~~~~~~~~~~~~~~~~~~~
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: "RUBY_API_VERSION_MINOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: ‘RUBY_API_VERSION_MINOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |                                     ^~~~~~~~~~~~~~~~~~~~~~
 cc1plus: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
@@ -635,10 +635,10 @@ In file included from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ru
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/ruby.h:27,
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby.h:38,
                  from conftest.c:1:
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: "RUBY_API_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: ‘RUBY_API_VERSION_MAJOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |      ^~~~~~~~~~~~~~~~~~~~~~
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: "RUBY_API_VERSION_MINOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: ‘RUBY_API_VERSION_MINOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |                                     ^~~~~~~~~~~~~~~~~~~~~~
 cc1plus: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
@@ -659,10 +659,10 @@ In file included from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ru
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/ruby.h:27,
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby.h:38,
                  from conftest.c:1:
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: "RUBY_API_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: ‘RUBY_API_VERSION_MAJOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |      ^~~~~~~~~~~~~~~~~~~~~~
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: "RUBY_API_VERSION_MINOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: ‘RUBY_API_VERSION_MINOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |                                     ^~~~~~~~~~~~~~~~~~~~~~
 cc1plus: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
@@ -683,10 +683,10 @@ In file included from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ru
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/ruby.h:27,
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby.h:38,
                  from conftest.c:1:
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: "RUBY_API_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: ‘RUBY_API_VERSION_MAJOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |      ^~~~~~~~~~~~~~~~~~~~~~
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: "RUBY_API_VERSION_MINOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: ‘RUBY_API_VERSION_MINOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |                                     ^~~~~~~~~~~~~~~~~~~~~~
 cc1plus: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
@@ -707,10 +707,10 @@ In file included from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ru
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/ruby.h:27,
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby.h:38,
                  from conftest.c:1:
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: "RUBY_API_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: ‘RUBY_API_VERSION_MAJOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |      ^~~~~~~~~~~~~~~~~~~~~~
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: "RUBY_API_VERSION_MINOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: ‘RUBY_API_VERSION_MINOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |                                     ^~~~~~~~~~~~~~~~~~~~~~
 cc1plus: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
@@ -731,10 +731,10 @@ In file included from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ru
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/ruby.h:27,
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby.h:38,
                  from conftest.c:1:
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: "RUBY_API_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: ‘RUBY_API_VERSION_MAJOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |      ^~~~~~~~~~~~~~~~~~~~~~
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: "RUBY_API_VERSION_MINOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: ‘RUBY_API_VERSION_MINOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |                                     ^~~~~~~~~~~~~~~~~~~~~~
 cc1plus: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
@@ -755,10 +755,10 @@ In file included from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ru
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/ruby.h:27,
                  from /opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby.h:38,
                  from conftest.c:1:
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: "RUBY_API_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:6: warning: ‘RUBY_API_VERSION_MAJOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |      ^~~~~~~~~~~~~~~~~~~~~~
-/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: "RUBY_API_VERSION_MINOR" is not defined, evaluates to 0 [-Wundef]
+/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward/cxxanyargs.hpp:540:37: warning: ‘RUBY_API_VERSION_MINOR’ is not defined, evaluates to ‘0’ [-Wundef]
   540 | #if (RUBY_API_VERSION_MAJOR * 100 + RUBY_API_VERSION_MINOR) >= 301
       |                                     ^~~~~~~~~~~~~~~~~~~~~~
 conftest.c: In function ‘int main()’:

@@ -4,4 +4,10 @@ var store = [{
         "tags": ["Research"],
         "url": "/my_blog/posts/Research-Notes-01/",
         "teaser": null
+      },{
+        "title": "Research Notes 02",
+        "excerpt":"How to reproduce the code ​ In scientific research, we usually need to reproduce the code. But how should we reproduce it? And do we need to simply complete the process, or obtain graphs similar to those in the paper? ​ One opinion I agree with says that we first...","categories": [],
+        "tags": ["Research"],
+        "url": "/my_blog/posts/Research-Notes-02/",
+        "teaser": null
       }]

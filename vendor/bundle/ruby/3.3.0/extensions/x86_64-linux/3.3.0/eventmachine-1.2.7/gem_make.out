@@ -3,17 +3,17 @@ current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle
 creating Makefile
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20261027-2255-widbcd sitelibdir\=./.gem.20261027-2255-widbcd clean
+make DESTDIR\= sitearchdir\=./.gem.20261029-2250-va8ufy sitelibdir\=./.gem.20261029-2250-va8ufy clean
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20261027-2255-widbcd sitelibdir\=./.gem.20261027-2255-widbcd
-compiling mapper.cpp
+make DESTDIR\= sitearchdir\=./.gem.20261029-2250-va8ufy sitelibdir\=./.gem.20261029-2250-va8ufy
 compiling rubymain.cpp
+compiling mapper.cpp
 linking shared-object fastfilereaderext.so
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20261027-2255-widbcd sitelibdir\=./.gem.20261027-2255-widbcd install
-/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20261027-2255-widbcd
+make DESTDIR\= sitearchdir\=./.gem.20261029-2250-va8ufy sitelibdir\=./.gem.20261029-2250-va8ufy install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20261029-2250-va8ufy
 
 current directory: /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20261027-2255-widbcd sitelibdir\=./.gem.20261027-2255-widbcd clean
+make DESTDIR\= sitearchdir\=./.gem.20261029-2250-va8ufy sitelibdir\=./.gem.20261029-2250-va8ufy clean

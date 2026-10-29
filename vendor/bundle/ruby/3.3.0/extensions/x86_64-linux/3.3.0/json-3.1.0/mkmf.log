@@ -143,8 +143,8 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib "gcc -o conftest -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/x86_64-linux -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0 -I. -DENABLE_PATH_CHECK=0   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef  -fPIC conftest.c  -L. -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -lruby  -lm -lpthread  -lc"
-/usr/bin/ld: /tmp/ccojqAXF.o: in function `t':
-/home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser/conftest.c:17:(.text+0xb): undefined reference to `ruby_xfree_sized'
+/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/ccyu2Ixb.o: in function `t':
+/home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser/conftest.c:17:(.text+0x9): undefined reference to `ruby_xfree_sized'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -184,7 +184,7 @@ checked program was:
 have_func: checking for _lzcnt_u64() in x86intrin.h... -------------------- no
 
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib "gcc -o conftest -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/x86_64-linux -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0 -I. -DENABLE_PATH_CHECK=0   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef  -fPIC conftest.c  -L. -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -lruby  -lm -lpthread  -lc"
-/usr/bin/ld: /tmp/cc2jBv8l.o: in function `t':
+/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/cct97wal.o: in function `t':
 /home/runner/work/my_blog_source/my_blog_source/vendor/bundle/ruby/3.3.0/gems/json-3.1.0/ext/json/ext/parser/conftest.c:16:(.text+0x7): undefined reference to `_lzcnt_u64'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -208,13 +208,13 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/opt/hostedtoolcache/Ruby/3.3.13/x64/lib "gcc -o conftest -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/x86_64-linux -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0/ruby/backward -I/opt/hostedtoolcache/Ruby/3.3.13/x64/include/ruby-3.3.0 -I. -DENABLE_PATH_CHECK=0   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef  -fPIC conftest.c  -L. -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -L/opt/hostedtoolcache/Ruby/3.3.13/x64/lib -lruby  -lm -lpthread  -lc"
-conftest.c:16:13: error: conflicting types for ‘_lzcnt_u64’; have ‘void()’
+conftest.c:16:13: error: conflicting types for ‘_lzcnt_u64’; have ‘void(void)’
    16 | extern void _lzcnt_u64();
       |             ^~~~~~~~~~
-In file included from /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h:61,
-                 from /usr/lib/gcc/x86_64-linux-gnu/13/include/x86intrin.h:27,
+In file included from /usr/lib/gcc/x86_64-linux-gnu/15/include/x86gprintrin.h:61,
+                 from /usr/lib/gcc/x86_64-linux-gnu/15/include/x86intrin.h:27,
                  from conftest.c:3:
-/usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h:64:1: note: previous definition of ‘_lzcnt_u64’ with type ‘long long unsigned int(long long unsigned int)’
+/usr/lib/gcc/x86_64-linux-gnu/15/include/lzcntintrin.h:64:1: note: previous definition of ‘_lzcnt_u64’ with type ‘long long unsigned int(long long unsigned int)’
    64 | _lzcnt_u64 (unsigned long long __X)
       | ^~~~~~~~~~
 cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
